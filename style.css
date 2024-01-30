@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  box-shadow: 2px 4px 5px rgb(0, 0, 0, 0.3);
+  width: 25rem;
+  height: 32rem;
+  border-radius: 10px;
+}
+
+.display-container {
+  background-color: black;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  min-width: 100%;
+  min-height: 30%;
+}
+
+.button-container {
+  min-height: 70%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 1.2rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button {
+  border-radius: 50%;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin: 0.2rem;
+  box-shadow: 2px 4px 5px rgb(0, 0, 0, 0.3);
+  border: none;
+}
+
+.display-equation {
+  color: white;
+  background-color: skyblue;
+  width: 100%;
+  height: 4rem;
+}
